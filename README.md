@@ -44,3 +44,23 @@
 ![Screenshot 2025-05-22 072101](https://github.com/user-attachments/assets/566d9725-c0dc-40c8-bfe4-4cb7c3af1494)
 
 - `@Transient` - If we dont wanna sava the data of the perticular field but we want that field in the class.
+
+# Embeddable
+
+- `@Embeddable` is used to embed one class into another class and create the table structure
+like below
+![WhatsApp Image 2025-05-23 at 06 18 18_e775e8aa](https://github.com/user-attachments/assets/eabe0741-7c7f-4673-8026-ed6713cd100c)  
+
+![Screenshot 2025-05-23 063236](https://github.com/user-attachments/assets/ca1382dd-db6e-429f-a390-4f12be65383d)
+
+![Screenshot 2025-05-23 063314](https://github.com/user-attachments/assets/85dbe467-96c6-4884-a139-26a58ba6e277)
+
+![Screenshot 2025-05-23 063443](https://github.com/user-attachments/assets/9bf06b57-8e9f-456e-893f-c6ab0eaaa33e)
+
+- To retrieve the data
+
+![Screenshot 2025-05-23 064054](https://github.com/user-attachments/assets/c44ae8bf-d92f-4934-9bbd-3b35bab8ae15)
+
+![Screenshot 2025-05-23 064244](https://github.com/user-attachments/assets/907e67aa-de82-455d-afd1-23f277c8125b)
+
+** Note: It is triggering insert query instead of select query **
