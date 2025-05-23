@@ -63,4 +63,29 @@ like below
 
 ![Screenshot 2025-05-23 064244](https://github.com/user-attachments/assets/907e67aa-de82-455d-afd1-23f277c8125b)
 
-** Note: It is triggering insert query instead of select query **
+** Note: It is triggering insert query instead of select query because**
+- Laptop should have its own entity.
+- What if one alien has multiple laptops.
+
+### To overcome this the mapping concept was introduced.
+
+# Mapping
+
+## one-one Relationship
+![WhatsApp Image 2025-05-23 at 07 06 57_d8d6e21d](https://github.com/user-attachments/assets/3f92fea6-efaa-4fda-90cd-161cdb40735a)
+
+## oneToMany and manyToOne Relationship
+
+![WhatsApp Image 2025-05-23 at 07 09 19_5ac22b54](https://github.com/user-attachments/assets/ad1c1b95-4fbb-477a-b391-e100b66971f9)
+
+![WhatsApp Image 2025-05-23 at 07 09 39_4b00ff04](https://github.com/user-attachments/assets/f2d08ca1-cbee-446c-9b76-ee66d2ab20a0)
+
+![WhatsApp Image 2025-05-23 at 07 11 16_22f8e2ff](https://github.com/user-attachments/assets/026d2a07-d9e3-4096-be54-f581788d944b)
+
+- or create one more table which should contain primary key of both tables.
+
+## manyToMany Relationship
+
+![WhatsApp Image 2025-05-23 at 07 17 11_3b7b3f43](https://github.com/user-attachments/assets/2188c00f-4f20-49bd-9436-7866b82c44da)
+
+![WhatsApp Image 2025-05-23 at 07 18 10_4e705364](https://github.com/user-attachments/assets/d25175c9-bf8c-4110-9063-23793354e91e)
