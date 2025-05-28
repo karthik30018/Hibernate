@@ -1,4 +1,4 @@
-# Hibernate
+![Screenshot 2025-05-28 074110](https://github.com/user-attachments/assets/8e3c1e45-0a53-4c69-8e5e-2851bda88ae5)# Hibernate
 
 ## Creating a table and inserting values to the database (Create)
 
@@ -74,6 +74,20 @@ like below
 ## one-one Relationship
 ![WhatsApp Image 2025-05-23 at 07 06 57_d8d6e21d](https://github.com/user-attachments/assets/3f92fea6-efaa-4fda-90cd-161cdb40735a)
 
+Example:
+
+- Create a child entity(**Note: It should be an entity**)
+![Screenshot 2025-05-28 063536](https://github.com/user-attachments/assets/0cbbebda-7d2a-4afc-8e29-c7f10ebd7c30)
+
+- Create parent entity where you want to include child entity.
+![Screenshot 2025-05-28 063940](https://github.com/user-attachments/assets/7be739ea-7845-4bb5-ac2e-5a8c8036f08c)
+
+- In Main class include both the class like `.addAnnotatedClass(org.javaPro.Alien.class)
+        .addAnnotatedClass(org.javaPro.Laptop.class).`
+- And call the session.persist() method for both the classes.    
+![Screenshot 2025-05-28 064049](https://github.com/user-attachments/assets/fcceab75-0501-46f7-a213-29d3c4c6e5b1)
+
+
 ## oneToMany and manyToOne Relationship
 
 ![WhatsApp Image 2025-05-23 at 07 09 19_5ac22b54](https://github.com/user-attachments/assets/ad1c1b95-4fbb-477a-b391-e100b66971f9)
@@ -83,6 +97,29 @@ like below
 ![WhatsApp Image 2025-05-23 at 07 11 16_22f8e2ff](https://github.com/user-attachments/assets/026d2a07-d9e3-4096-be54-f581788d944b)
 
 - or create one more table which should contain primary key of both tables.
+
+- When ever we are working with a list we have to use onetomany or manytoone.
+
+- ![Screenshot 2025-05-28 071235](https://github.com/user-attachments/assets/8ffda38e-2b97-48f0-a175-f40cbfc910f4)
+
+- ![Screenshot 2025-05-28 071342](https://github.com/user-attachments/assets/1b04b252-1fea-4ad3-a503-8b38ef42f75d)
+  
+- ![Screenshot 2025-05-28 071431](https://github.com/user-attachments/assets/9d5bd9af-baa0-4ba4-9027-fb3f72a59da9)
+
+- The above method will create seperate table
+![Screenshot 2025-05-28 072027](https://github.com/user-attachments/assets/557be67e-7811-4250-9287-023b6c529e4b)
+
+**To crate a reference in the same table/entity**
+
+- ![Screenshot 2025-05-28 073312](https://github.com/user-attachments/assets/f33f38e5-dd4e-4a11-a999-9fe464afe41a)
+-  ![Screenshot 2025-05-28 073534](https://github.com/user-attachments/assets/c9fe64f1-d339-43f3-b0bc-80a126444403)
+-  ![Screenshot 2025-05-28 073737](https://github.com/user-attachments/assets/be925dbd-d004-441d-947e-d075a5619614)
+-  In Laptop Entity it as created Alien reference. `alien_aid`
+-  ![Screenshot 2025-05-28 074110](https://github.com/user-attachments/assets/065459b9-8739-4c32-8548-08d11c5adf75)
+
+
+
+
 
 ## manyToMany Relationship
 
