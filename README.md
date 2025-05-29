@@ -117,12 +117,14 @@ Example:
 -  In Laptop Entity it as created Alien reference. `alien_aid`
 -  ![Screenshot 2025-05-28 074110](https://github.com/user-attachments/assets/065459b9-8739-4c32-8548-08d11c5adf75)
 
-
-
-
-
 ## manyToMany Relationship
 
 ![WhatsApp Image 2025-05-23 at 07 17 11_3b7b3f43](https://github.com/user-attachments/assets/2188c00f-4f20-49bd-9436-7866b82c44da)
-
 ![WhatsApp Image 2025-05-23 at 07 18 10_4e705364](https://github.com/user-attachments/assets/d25175c9-bf8c-4110-9063-23793354e91e)
+
+
+- ![Screenshot 2025-05-29 072047](https://github.com/user-attachments/assets/9866c8e1-9209-4a19-a0cf-dc3f81a89c3c)
+- ![Screenshot 2025-05-29 072229](https://github.com/user-attachments/assets/f1f8d680-c922-4e97-bf88-533bc08b2414)
+- ![Screenshot 2025-05-29 072433](https://github.com/user-attachments/assets/4046c8a9-35f6-4da9-a8c4-f07b6b331c94)
+- Mapping done by Alien Class
+-![Screenshot 2025-05-29 072455](https://github.com/user-attachments/assets/87fce707-3de8-433f-bf46-0259e23e3418)
