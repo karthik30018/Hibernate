@@ -1,4 +1,4 @@
-![Screenshot 2025-05-28 074110](https://github.com/user-attachments/assets/8e3c1e45-0a53-4c69-8e5e-2851bda88ae5)# Hibernate
+# Hibernate
 
 ## Creating a table and inserting values to the database (Create)
 
@@ -116,6 +116,7 @@ Example:
 -  ![Screenshot 2025-05-28 073737](https://github.com/user-attachments/assets/be925dbd-d004-441d-947e-d075a5619614)
 -  In Laptop Entity it as created Alien reference. `alien_aid`
 -  ![Screenshot 2025-05-28 074110](https://github.com/user-attachments/assets/065459b9-8739-4c32-8548-08d11c5adf75)
+
 
 ## manyToMany Relationship
 
