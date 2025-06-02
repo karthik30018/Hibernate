@@ -168,3 +168,31 @@ Example:
 - Perticular columns
 ![Screenshot 2025-06-02 215856](https://github.com/user-attachments/assets/d7c45740-8c51-4c09-af8d-a515a3122e0c)
 
+# Get vs Load
+
+## get (Eager loading)
+
+- When using get method if we didn't call the data then also the query will get executed.
+
+- When calling
+- ![Screenshot 2025-06-02 222729](https://github.com/user-attachments/assets/377ce935-a60b-471d-95cb-d1eb1aa87c91)
+
+- When it is not called
+- ![Screenshot 2025-06-02 222903](https://github.com/user-attachments/assets/c6e28ead-f23f-4cfc-8cf9-5ffaff4d88f0)
+
+## load (lazy loading)
+
+- When the data is called then only the query is executed.
+
+- When data is called
+- ![Screenshot 2025-06-02 223108](https://github.com/user-attachments/assets/a4beaa01-a204-4afe-8568-2b38b761e354)
+or
+- ![Screenshot 2025-06-02 223356](https://github.com/user-attachments/assets/f3463e3e-3d60-4170-b72e-85cbb69e77b5)
+
+
+- When calling the data
+- ![Screenshot 2025-06-02 223211](https://github.com/user-attachments/assets/4c005962-f0d9-4072-a310-a2c29eeba4e1)
+ or
+- ![Screenshot 2025-06-02 223321](https://github.com/user-attachments/assets/07e7140b-9dd1-434e-bffa-fe6fa6e535af)
+
+
