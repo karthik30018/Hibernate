@@ -150,3 +150,21 @@ Example:
 - The hibernate provides when to use caching and when not to use is called **L1 cache**
 
 - For **L2 Cache** we have to use external tool which enable use to use same data in multiple session JCache -> EHCACHE,Caffeine.
+
+
+# HQL (Hibernate Query Language)
+
+## Fetching data using HQL
+
+- To fetch all the data
+![Screenshot 2025-06-02 184700](https://github.com/user-attachments/assets/9bb54ce4-ee77-4432-90e3-9cea7790fd15)
+
+-Using where clause
+![Screenshot 2025-06-02 185221](https://github.com/user-attachments/assets/4efd44f7-c9c3-401d-8e35-b91222242324)
+
+- Passing parameter
+![Screenshot 2025-06-02 191128](https://github.com/user-attachments/assets/5f4b126d-5816-4fb6-9aa4-66a10d51bebc)
+
+- Perticular columns
+![Screenshot 2025-06-02 215856](https://github.com/user-attachments/assets/d7c45740-8c51-4c09-af8d-a515a3122e0c)
+
