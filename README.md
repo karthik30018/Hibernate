@@ -129,3 +129,15 @@ Example:
 - ![Screenshot 2025-05-29 072433](https://github.com/user-attachments/assets/4046c8a9-35f6-4da9-a8c4-f07b6b331c94)
 - Mapping done by Alien Class
 -![Screenshot 2025-05-29 072455](https://github.com/user-attachments/assets/87fce707-3de8-433f-bf46-0259e23e3418)
+
+# Eager fetching and Lazy fetching 
+
+
+- When we have a collection in an entity it uses *Lazy fetch* by default it will only print the query for the entity where we are using get statement.
+- If are using the data then only it will fetch all the data
+- Advantage : It won't load the entire data, will only load what the user want.
+- ![WhatsApp Image 2025-06-02 at 16 31 57_cd2dfd26](https://github.com/user-attachments/assets/8e7ba670-23ff-4192-a0fc-bde1c184bc96)
+
+- To make it *Eager fetch* `@OneToMany(fetch = FetchType.EAGER)`
+- If we are using this even though we are not using it still it will call all the data.
+- ![WhatsApp Image 2025-06-02 at 16 30 33_b7c605db](https://github.com/user-attachments/assets/d772fe8f-de40-4bb8-a308-8f5860fad0e8)
