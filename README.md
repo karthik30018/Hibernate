@@ -141,3 +141,12 @@ Example:
 - To make it *Eager fetch* `@OneToMany(fetch = FetchType.EAGER)`
 - If we are using this even though we are not using it still it will call all the data.
 - ![WhatsApp Image 2025-06-02 at 16 30 33_b7c605db](https://github.com/user-attachments/assets/d772fe8f-de40-4bb8-a308-8f5860fad0e8)
+
+
+# Hibernate Caching
+
+- In a session if we are calling same data from the client side again and again it won't call it from the database instead the hiberante provide caching, where the session data will be stored untill the session is closed.
+- Disadvantage: what if the data changes due to some activities.
+- The hibernate provides when to use caching and when not to use is called **L1 cache**
+
+- For **L2 Cache** we have to use external tool which enable use to use same data in multiple session JCache -> EHCACHE,Caffeine.
