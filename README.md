@@ -195,4 +195,12 @@ or
  or
 - ![Screenshot 2025-06-02 223321](https://github.com/user-attachments/assets/07e7140b-9dd1-434e-bffa-fe6fa6e535af)
 
+# L2 Cache using Ehcache
+
+- We have created 2 session still L2 level cache is not applied.
+- ![Screenshot 2025-06-02 224032](https://github.com/user-attachments/assets/6f4963d4-f902-4d51-9a42-62efd28691eb)
+
+Use @Cacheable under @Entity and add dependencies in maven related to Ehcache
+- ![Screenshot 2025-06-02 225126](https://github.com/user-attachments/assets/3db5604d-e1ec-40fc-a778-133db18a6248)
+
 
